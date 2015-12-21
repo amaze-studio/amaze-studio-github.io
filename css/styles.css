@@ -155,6 +155,9 @@ h6 {
 	margin: 10px;
 	border: none;
 }
+.header .btn-primary {
+	font-size: 20px;
+}
 .red-btn {
 	background: #e96656;
 }
