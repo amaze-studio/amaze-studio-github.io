@@ -70,7 +70,7 @@ li {
 }
 
 a {
-	color: #e96656;
+	color: #83D3CB;
 	-webkit-transition: all 700ms;
 	        transition: all 700ms;
 }
@@ -159,7 +159,7 @@ h6 {
 	font-size: 20px;
 }
 .red-btn {
-	background: #e96656;
+	background: #83D3CB;
 }
 .green-btn {
 	background: #20AA73;
@@ -198,7 +198,7 @@ h6 {
 
 /** BACKGROUNDS **/
 .red-bg {
-	background: #e96656;
+	background: #83D3CB;
 }
 .green-bg {
 	background: #34d293;
@@ -218,7 +218,7 @@ h6 {
 
 /** FOR TEXTS AND ICON FONTS **/
 .red-text {
-	color: #e96656;
+	color: #83D3CB;
 }
 .green-text {
 	color: #34d293;
@@ -269,7 +269,7 @@ h6 {
 	content: "";
 	width: 75%;
 	height: 2px;
-	background: #e96656;
+	background: #83D3CB;
 	bottom: -9px;
 	left: 12.5%;
 }
@@ -341,7 +341,7 @@ input:active,
 textarea:focus, 
 input:focus {
     outline: 1 !important;
-    outline-color: #e96656 !important;
+    outline-color: #83D3CB !important;
     -webkit-appearance:none;
         border:none !important;
   -webkit-box-shadow:none !important;
@@ -452,7 +452,7 @@ input:focus {
 	padding-top: 23px;
 }
 .current a {
-	color: #e96656 !important;
+	color: #83D3CB !important;
 	position: relative;
 	outline: none;
 }
@@ -463,12 +463,12 @@ input:focus {
 	content: "";
 	width: 75%;
 	height: 2px;
-	background: #e96656;
+	background: #83D3CB;
 	bottom: 0px;
 	left: 12.5%;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: #e96656;
+	color: #83D3CB;
 	outline: none;
 }
 .navbar-toggle {
@@ -477,7 +477,7 @@ input:focus {
         margin-top: 23px;
 }
 .navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {
-	background-color: #e96656;
+	background-color: #83D3CB;
 	filter: alpha(opacity=100);
 	opacity: 1;
 }
@@ -535,7 +535,7 @@ input:focus {
 	        transition: all 0.2s ease-in-out;
 }
 .red:hover .service-icon {
-	border: 10px solid #e96656;
+	border: 10px solid #83D3CB;
 }
 .green:hover .service-icon {
 	border: 10px solid #34d293;
@@ -987,7 +987,7 @@ width: -webkit-calc(100% / 2);
 	color: #808080;
 }
 .team-member .social-icons ul li a:hover {
-	color: #e96656;
+	color: #83D3CB;
 }
 
 /*---------------------------------------
@@ -1113,7 +1113,7 @@ width: -webkit-calc(100% / 2);
 	border-bottom-left-radius: 4px;
 }
 .package .order-now:hover {
-	background: #e96656;
+	background: #83D3CB;
 }
 
 /*---------------------------------------
@@ -1384,7 +1384,7 @@ width: -webkit-calc(100% / 2);
 -----------------------------------------*/
 
 .purchase-now {
-	background: #e96656;
+	background: #83D3CB;
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
@@ -1454,7 +1454,7 @@ footer {
 	font-size: 18px;
 }
 .social li a:hover {
-	color: #e96656;
+	color: #83D3CB;
 }
 
 /* ========================================= */
