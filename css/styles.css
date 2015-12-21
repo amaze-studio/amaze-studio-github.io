@@ -57,15 +57,15 @@ li {
 }
 /* Selection colours (easy to forget) */
 ::-moz-selection {
-	background: #FC6D6D;
+	background: #82D4CF;
 	color: #FFF;
 }
 ::selection {
-	background: #FC6D6D;
+	background: #82D4CF;
 	color: #FFF;
 }
 ::-moz-selection {
-	background: #FC6D6D;
+	background: #82D4CF;
 	color: #FFF;
 }
 
@@ -162,6 +162,14 @@ h6 {
 .brand-blue-btn:hover,
 .brand-blue-btn:focus {
 	background: #40908D;
+}
+.grey-btn {
+	background: #979696;
+}
+.grey-btn:hover,
+.grey-btn:focus {
+	background: #676767;
+	color: black;
 }
 .dark-grey-btn {
 	background: #161616;
@@ -469,7 +477,7 @@ input:focus {
 	padding-top: 23px;
 }
 .current a {
-	color: #83D3CB !important;
+	color: #979696 !important;
 	position: relative;
 	outline: none;
 }
@@ -480,7 +488,7 @@ input:focus {
 	content: "";
 	width: 75%;
 	height: 2px;
-	background: #83D3CB;
+	background: #979696;
 	bottom: 0px;
 	left: 12.5%;
 }
