@@ -130,8 +130,6 @@ h6 {
  **   BUTTONS                        -----
 -----------------------------------------*/
 .vegas-background {
-	width: 100% !important;
-	height: 100% !important;
 }
 .buttons {
 	text-align: center;
@@ -158,8 +156,11 @@ h6 {
 .header .btn-primary {
 	font-size: 20px;
 }
-.red-btn {
-	background: #83D3CB;
+.grey-btn {
+	background: #7B7B7B;
+}
+.dark-grey-btn {
+	background: #161616;
 }
 .green-btn {
 	background: #20AA73;
