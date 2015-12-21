@@ -156,11 +156,20 @@ h6 {
 .header .btn-primary {
 	font-size: 20px;
 }
-.grey-btn {
-	background: #7B7B7B;
+.brand-blue-btn {
+	background: #82D4CF;
+}
+.brand-blue-btn:hover,
+.brand-blue-btn:focus {
+	background: #40908D;
 }
 .dark-grey-btn {
 	background: #161616;
+}
+.dark-grey-btn:hover,
+.dark-grey-btn:focus {
+	background: #616161;
+	color: black;
 }
 .green-btn {
 	background: #20AA73;
