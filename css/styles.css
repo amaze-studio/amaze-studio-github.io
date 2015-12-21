@@ -57,15 +57,15 @@ li {
 }
 /* Selection colours (easy to forget) */
 ::-moz-selection {
-	background: #FC6D6D;
+	background: #82D4CF;
 	color: #FFF;
 }
 ::selection {
-	background: #FC6D6D;
+	background: #82D4CF;
 	color: #FFF;
 }
 ::-moz-selection {
-	background: #FC6D6D;
+	background: #82D4CF;
 	color: #FFF;
 }
 
@@ -163,6 +163,14 @@ h6 {
 .brand-blue-btn:focus {
 	background: #40908D;
 }
+.grey-btn {
+	background: #979696;
+}
+.grey-btn:hover,
+.grey-btn:focus {
+	background: #676767;
+	color: black;
+}
 .dark-grey-btn {
 	background: #161616;
 }
@@ -225,7 +233,14 @@ h6 {
 .white-bg {
 	background:  #FFFFFF;
 }
-
+.black-btn {
+	background: black;
+}
+.black-btn:hover,
+.black-btn:active, 
+.black-btn:focus {
+	background: #393939;
+}
 /** FOR TEXTS AND ICON FONTS **/
 .red-text {
 	color: #83D3CB;
@@ -462,7 +477,7 @@ input:focus {
 	padding-top: 23px;
 }
 .current a {
-	color: #83D3CB !important;
+	color: #979696 !important;
 	position: relative;
 	outline: none;
 }
@@ -473,7 +488,7 @@ input:focus {
 	content: "";
 	width: 75%;
 	height: 2px;
-	background: #83D3CB;
+	background: #979696;
 	bottom: 0px;
 	left: 12.5%;
 }
@@ -604,7 +619,7 @@ input:focus {
 -----------------------------------------*/
 
 .separator-one {
-	background: rgba(52, 210, 147, 0.8);
+	background: rgba(130,212,207,.8);
 	padding: 100px 0 100px 0;
 }
 .separator-one .green-btn {
@@ -614,7 +629,7 @@ input:focus {
 	background: #007345;
 }
 .separator-one .text {
-	color: #FFF;
+	color: black;
 	line-height: 34px;
 	padding: 0;
 	max-width: 800px;
