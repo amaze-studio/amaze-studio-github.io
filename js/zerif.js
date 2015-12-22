@@ -12,7 +12,11 @@ $.vegas('slideshow', {
 ===  OWL CROUSEL               ====
 ===================================*/
    $(document).ready(function() {
-  disableScroll()
+    var offset = $(window).scrollTop();
+    if (offset == 0) {
+      $('body').addClass('black-and-white-theme')
+      disableScroll()
+    }
   var owl_main_block = $('#owl-main-block');
   owl_main_block.owlCarousel({
     singleItem : true,
@@ -33,14 +37,13 @@ $.vegas('slideshow', {
 =================================== */
 // makes sure the whole site is loaded
 jQuery(window).load(function() {
-  var headerHeight = $(window).height();
-  $('.header').css('height', headerHeight);
         // will first fade out the loading animation
 	jQuery(".status").fadeOut();
         // will fade out the whole DIV that covers the website.
 	jQuery(".preloader").delay(1000).fadeOut("slow");
   
   setTimeout( function() {
+
     $('body').removeClass('black-and-white-theme');
     enableScroll();
   }, 4000) 

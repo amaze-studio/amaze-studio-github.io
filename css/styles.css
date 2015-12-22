@@ -22,29 +22,6 @@ body {
 	line-height: 25px;
 	text-align: center;
 }
-.black-and-white-theme .brand-blue-btn{
-	background-color: #141414;
-	color: white;
-}
-.black-and-white-theme .short-text{
-	opacity: .8;
-}
-.black-and-white-theme .brand-blue-btn:hover{
-	background-color: black;
-}
-.black-and-white-theme li.current a{
-	color: #979696;
-}
-.black-and-white-theme li.current:before{
-	background: #979696;
-}
-.black-and-white-theme img{
-	-webkit-filter: grayscale(100%) !important;
-	-moz-filter: grayscale(100%) !important; 
-	-o-filter: grayscale(100%) !important; 
-	-ms-filter: grayscale(100%) !important; 
-	filter: grayscale(100%) !important; 
-}
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 @-webkit-viewport {
 	width: device-width;
@@ -509,7 +486,7 @@ input:focus {
 	line-height: 45px;
 	padding-top: 23px;
 }
-.current a {
+.navbar-inverse .navbar-nav>li.current a {
 	color: #1A676D;
 	position: relative;
 	outline: none;
@@ -521,7 +498,7 @@ input:focus {
 	content: "";
 	width: 75%;
 	height: 2px;
-	background: #1A676D;
+	background: #20858C;
 	bottom: 0px;
 	left: 12.5%;
 }
@@ -1573,6 +1550,34 @@ footer {
 .are-you-ready {
 	font-size: 26px;
 }
+
+
+
+.black-and-white-theme .brand-blue-btn{
+	background-color: #141414;
+	color: white;
+}
+.black-and-white-theme .short-text{
+	opacity: .8;
+}
+.black-and-white-theme .brand-blue-btn:hover{
+	background-color: black;
+}
+.black-and-white-theme .navbar-inverse .navbar-nav>li.current a{
+	color: #979696;
+}
+.black-and-white-theme li.current:before{
+	background: #979696;
+}
+.black-and-white-theme img{
+	-webkit-filter: grayscale(100%) !important;
+	-moz-filter: grayscale(100%) !important; 
+	-o-filter: grayscale(100%) !important; 
+	-ms-filter: grayscale(100%) !important; 
+	filter: grayscale(100%) !important; 
+}
+
+
 @media (max-width: 480px){
 	.responsive-logo img{
 		width: auto !important;
