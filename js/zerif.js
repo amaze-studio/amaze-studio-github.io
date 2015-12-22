@@ -150,7 +150,7 @@ xmlhttp.onreadystatechange = function() {
 
     if (isValidEmail(email) && (message.length > 1) && (name.length > 1)) {
         
-        xmlhttp.send(JSON.stringify({'key': 'YourApiKeyIsHere',
+        xmlhttp.send(JSON.stringify({'key': 'dLY1AVqBFCU4256RhX0QqA',
            'message': {
                'from_email': email,
                'to': [{'email': 'amaze.stud@gmail.com', 'type': 'to'}],
