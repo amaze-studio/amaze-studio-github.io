@@ -10,7 +10,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
     
 	.cbp-rfgrid li a,.cbp-rfgrid li a img {
-    	height: 150px;
+    	height: auto;
     }
     /* TOP BAR ELEMENTS */    
 	.responsive-logo {
