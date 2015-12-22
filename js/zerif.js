@@ -2,28 +2,47 @@
 ===  BACKGROUND SLIDER        ====
 ================================= */
 $.vegas('slideshow', {
-  delay:7000,
+  delay:10000,
   backgrounds:[
     { src:'images/bg4.jpg', fade:1000 },
     { src:'images/bg5.jpg', fade:1000 },
   ]
 });
+/*=================================
+===  OWL CROUSEL               ====
+===================================*/
+   $(document).ready(function() {
+  disableScroll()
+  var owl_main_block = $('#owl-main-block');
+  owl_main_block.owlCarousel({
+    singleItem : true,
+    autoPlay : 3000,
+    pagination: false,
+    itemsDesktop : [1199,4],
+    itemsDesktopSmall : [980,3],
+    itemsTablet: [768,2],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
 
-window.onscroll = function() {
-  $('body').removeClass('black-and-white-theme');
-}      
+  })
+});    
    
 /* =================================
    LOADER                     
 =================================== */
 // makes sure the whole site is loaded
 jQuery(window).load(function() {
+  var headerHeight = $(window).height();
+  $('.header').css('height', headerHeight);
         // will first fade out the loading animation
 	jQuery(".status").fadeOut();
         // will fade out the whole DIV that covers the website.
 	jQuery(".preloader").delay(1000).fadeOut("slow");
-  var headerHeight = $(window).height();
-  $('.header').css('height', headerHeight);
+  
+  setTimeout( function() {
+    $('body').removeClass('black-and-white-theme');
+    enableScroll();
+  }, 4000) 
 })
 
 
@@ -90,19 +109,7 @@ $(document).ready(function(){
     });
 });
 
-/*=================================
-===  OWL CROUSEL               ====
-===================================*/
-   $(document).ready(function() {
-  var owl = $("#client-feedbacks");
-  owl.owlCarousel({
-      items : 3, //10 items above 1000px browser width
-      itemsDesktop : [1000,2], //5 items between 1000px and 901px
-      itemsDesktopSmall : [900,1], // betweem 900px and 601px
-      itemsTablet: [600,1], //2 items between 600 and 0
-      itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
-  });
-});
+
 
 
 /*=================================
@@ -254,3 +261,38 @@ $(".skill2").knob({
 new WOW().init();
 
 
+// left: 37, up: 38, right: 39, down: 40,
+// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+var keys = {37: 1, 38: 1, 39: 1, 40: 1};
+
+function preventDefault(e) {
+  e = e || window.event;
+  if (e.preventDefault)
+      e.preventDefault();
+  e.returnValue = false;  
+}
+
+function preventDefaultForScrollKeys(e) {
+    if (keys[e.keyCode]) {
+        preventDefault(e);
+        return false;
+    }
+}
+
+function disableScroll() {
+  if (window.addEventListener) // older FF
+      window.addEventListener('DOMMouseScroll', preventDefault, false);
+  window.onwheel = preventDefault; // modern standard
+  window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
+  window.ontouchmove  = preventDefault; // mobile
+  document.onkeydown  = preventDefaultForScrollKeys;
+}
+
+function enableScroll() {
+    if (window.removeEventListener)
+        window.removeEventListener('DOMMouseScroll', preventDefault, false);
+    window.onmousewheel = document.onmousewheel = null; 
+    window.onwheel = null; 
+    window.ontouchmove = null;  
+    document.onkeydown = null;  
+}

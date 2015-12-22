@@ -22,6 +22,9 @@ body {
 	line-height: 25px;
 	text-align: center;
 }
+.black-and-white-theme {
+	overflow: hidden;
+}
 .black-and-white-theme .brand-blue-btn{
 	background-color: #141414;
 	color: white;
@@ -289,6 +292,15 @@ h6 {
  **   BORDER BOTTOMS                 -----
 -----------------------------------------*/
 
+#owl-main-block {
+	display: block;1
+}
+.intro span {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 'Montserrat', 'sans-serif';
+	text-transform: uppercase;
+}
 .white-border-bottom:before {
 	position: absolute;
 	margin: auto;
