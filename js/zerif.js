@@ -157,12 +157,7 @@ xmlhttp.onreadystatechange = function() {
                'autotext': 'true',
                'subject': 'Yeah!',
                'html': '<h1>Its work!</h1>'
-            }}));
-            success: function () {
-                $('.success').fadeIn(1000);
-                $('.error').fadeOut(500);
-            }
-        });
+            }}))
     } else {
         $('.error').fadeIn(1000);
         $('.success').fadeOut(500);
