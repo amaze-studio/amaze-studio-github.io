@@ -13,12 +13,8 @@ $.vegas('slideshow', {
 ===================================*/
    $(document).ready(function() {
     var offset = $(window).scrollTop();
-    if (offset == 0) {
-      disableScroll()
-    }
-    else {
-      $('body').removeClass('black-and-white-theme')
-    }
+    
+    
   var owl_main_block = $('#owl-main-block');
   owl_main_block.owlCarousel({
     singleItem : true,
@@ -43,14 +39,20 @@ jQuery(window).load(function() {
 	// jQuery(".status").fadeOut();
         // will fade out the whole DIV that covers the website.
 	// jQuery(".preloader").delay(1000).fadeOut("slow");
-  
-  setTimeout( function() {
-    $('#main-nav').addClass('animated fadeIn');
-    $('.short-text').addClass('animated fadeIn');
-    $('header .btn').addClass('animated fadeIn');
-    $('body').removeClass('black-and-white-theme');
-    enableScroll();
-  }, 4000) 
+  var offset = $(window).scrollTop();
+    if (offset == 0) {
+      disableScroll()
+      setTimeout( function() {
+        $('#main-nav').addClass('animated fadeIn');
+        $('.short-text').addClass('animated fadeIn');
+        $('header .btn').addClass('animated fadeIn');
+        $('body').removeClass('black-and-white-theme');
+        enableScroll();
+      }, 4000) 
+    }
+    else {
+      $('body').removeClass('black-and-white-theme')
+    }
 })
 
 
