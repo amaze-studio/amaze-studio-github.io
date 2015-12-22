@@ -22,7 +22,29 @@ body {
 	line-height: 25px;
 	text-align: center;
 }
-
+.black-and-white-theme .brand-blue-btn{
+	background-color: #141414;
+	color: white;
+}
+.black-and-white-theme .short-text{
+	opacity: .8;
+}
+.black-and-white-theme .brand-blue-btn:hover{
+	background-color: black;
+}
+.black-and-white-theme li.current a{
+	color: #979696;
+}
+.black-and-white-theme li.current:before{
+	background: #979696;
+}
+.black-and-white-theme img{
+	-webkit-filter: grayscale(100%) !important;
+	-moz-filter: grayscale(100%) !important; 
+	-o-filter: grayscale(100%) !important; 
+	-ms-filter: grayscale(100%) !important; 
+	filter: grayscale(100%) !important; 
+}
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 @-webkit-viewport {
 	width: device-width;
@@ -158,11 +180,11 @@ h6 {
 	font-size: 20px;
 }
 .brand-blue-btn {
-	background: #82D4CF;
+	background: #1A676D;
 }
 .brand-blue-btn:hover,
 .brand-blue-btn:focus {
-	background: #40908D;
+	background: #155459;
 }
 .grey-btn {
 	background: #979696;
@@ -478,7 +500,7 @@ input:focus {
 	padding-top: 23px;
 }
 .current a {
-	color: #979696 !important;
+	color: #1A676D;
 	position: relative;
 	outline: none;
 }
@@ -489,7 +511,7 @@ input:focus {
 	content: "";
 	width: 75%;
 	height: 2px;
-	background: #979696;
+	background: #1A676D;
 	bottom: 0px;
 	left: 12.5%;
 }
@@ -512,7 +534,7 @@ input:focus {
 .intro {
 	text-align: center;
 	color: #FFF;
-	margin-top: 25%;
+	margin-top: 28%;
 	line-height: 65px;
 	z-index: 0;
 }
@@ -526,7 +548,8 @@ input:focus {
 	margin: auto;
 	font-size: 18px;
 	text-align: center;
-	color: rgba(255,255,255,0.7);
+	color: white;
+	opacity: 1;
 	text-transform: uppercase;
 }
 
@@ -570,18 +593,18 @@ input:focus {
 	-webkit-transition: all 0.2s ease-in-out;
 	        transition: all 0.2s ease-in-out;
 }
-.red:hover .service-icon {
+.red .service-icon {
 	border: 10px solid #83D3CB;
 }
-.green:hover .service-icon {
+.green .service-icon {
 	border: 10px solid #34d293;
 	color: #34d293;
 }
-.blue:hover .service-icon {
+.blue .service-icon {
 	border: 10px solid #3ab0e2;
 	color: #3ab0e2;
 }
-.yellow:hover .service-icon {
+.yellow .service-icon {
 	border: 10px solid #f7d861;
 	color: #f7d861;
 }

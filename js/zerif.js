@@ -4,12 +4,14 @@
 $.vegas('slideshow', {
   delay:7000,
   backgrounds:[
-    { src:'images/bg1.jpg', fade:1000 },
-    { src:'images/bg2.jpg', fade:1000 },
-    { src:'images/bg3.jpg', fade:1000 }
+    { src:'images/bg4.jpg', fade:1000 },
+    { src:'images/bg5.jpg', fade:1000 },
   ]
 });
-      
+
+window.onscroll = function() {
+  $('body').removeClass('black-and-white-theme');
+}      
    
 /* =================================
    LOADER                     
