@@ -1587,7 +1587,18 @@ footer {
 	-ms-filter: grayscale(100%) !important; 
 	filter: grayscale(100%) !important; 
 }
-
+.black-and-white-theme .logo-black-and-white {
+	display: block !important;
+}
+.black-and-white-theme .logo-color {
+	display: none !important;
+}
+.logo-black-and-white {
+	display: none !important;
+}
+.logo-color {
+	display: block !important;
+}
 
 @media (max-width: 480px){
 	.responsive-logo img{
