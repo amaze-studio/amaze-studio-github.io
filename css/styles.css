@@ -720,7 +720,6 @@ width: -webkit-calc(100% / 4);
 	cursor: pointer;
 	-webkit-transition: 0.4s all linear;
 	        transition: 0.4s all linear;
-	height: 190px;
 }
 .cbp-rfgrid li .project-wrapper:hover img {
 	-webkit-transform: scale(1.05,1.07);
@@ -1581,14 +1580,7 @@ footer {
 .black-and-white-theme *{
 	cursor: none;
 }
-.black-and-white-theme header h1 {
-	font-size: 70px;
-	line-height: 1.2;
-}
-.black-and-white-theme header span {
-	line-height: 1.2;
-	font-size: 70px;
-}
+
 .black-and-white-theme header .btn{
 	display: none !important;	
 }
