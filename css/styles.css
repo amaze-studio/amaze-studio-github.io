@@ -873,7 +873,6 @@ width: -webkit-calc(100% / 2);
 
 /*--OUR CLIENTS --*/
 .our-clients {
-	background: url(../images/lines-dark.png) repeat-x center;
 	margin-bottom: 40px;
 }
 .our-clients .section-footer-title {
@@ -1449,6 +1448,9 @@ width: -webkit-calc(100% / 2);
 .contact-us {
 	background: rgba(0, 0, 0, 0.5);
 	padding-bottom: 95px;
+}
+.contact-us .white-text {
+	line-height: 50px;
 }
 .contact-us .input-box,textarea {
 	width: 100%;
