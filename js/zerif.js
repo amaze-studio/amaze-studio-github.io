@@ -123,7 +123,7 @@ var scrollAnimationTime = 1200,
 ===  CONTACT FORM          ====
 =================================== */
 
-$("#contact-form").submit(function (e) {
+$("#").submit(function (e) {
     e.preventDefault();
     var name = $("#name").val();
     var email = $("#email").val();
