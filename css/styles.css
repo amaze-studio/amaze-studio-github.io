@@ -151,6 +151,7 @@ h6 {
 	padding: 13px 35px 13px 35px;
 	border-radius: 4px;
 	margin: 10px;
+	font-size: 18px;
 	border: none;
 }
 .header .btn-primary {
@@ -558,7 +559,7 @@ input:focus {
 	justify-content: center;
 	align-items: center;
 	font-size: 80px;
-	
+
 	position: relative;
 	-webkit-transition: all 0.2s ease-in-out;
 	        transition: all 0.2s ease-in-out;
@@ -574,12 +575,15 @@ input:focus {
 }
 .green:hover .service-icon {
 	border: 10px solid #34d293;
+	color: #34d293;
 }
 .blue:hover .service-icon {
 	border: 10px solid #3ab0e2;
+	color: #3ab0e2;
 }
 .yellow:hover .service-icon {
 	border: 10px solid #f7d861;
+	color: #f7d861;
 }
 
 .focus-box h5 {
@@ -630,7 +634,7 @@ input:focus {
 -----------------------------------------*/
 
 .separator-one {
-	background: rgba(130,212,207,.8);
+	background: rgba(107,107,107,.8);
 	padding: 100px 0 100px 0;
 }
 .separator-one .green-btn {
@@ -688,6 +692,7 @@ width: -webkit-calc(100% / 4);
 	cursor: pointer;
 	-webkit-transition: 0.4s all linear;
 	        transition: 0.4s all linear;
+	height: 190px;
 }
 .cbp-rfgrid li a:hover img {
 	-webkit-transform: scale(1.05,1.07);
