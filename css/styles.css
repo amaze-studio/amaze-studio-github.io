@@ -1577,6 +1577,9 @@ footer {
 #are-you-ready {
 	font-size: 25px;
 }
+.black-and-white-theme {
+	overflow: hidden;
+}
 .black-and-white-theme *{
 	cursor: none;
 }
