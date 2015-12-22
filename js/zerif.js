@@ -25,6 +25,7 @@ $.vegas('slideshow', {
     itemsMobile : [479,1],
 
   })
+  $('.step-2').css('display', 'block');
 });    
    
 /* =================================

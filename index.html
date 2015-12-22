@@ -91,7 +91,7 @@
 		<!-- HEADING -->
 		<div id="owl-main-block" class="intro owl-carousel">
 			<h1 class="step-1">Amaze - объединение талантливых фотографов</h1>
-			<span class="step-2">Мы внесем в Вашу жизнь новые краски</span>
+			<span class="step-2" style="display:none">Мы внесем в Вашу жизнь новые краски</span>
 		</div>
 		<!-- CALL TO ACTION BUTTONS -->
 		<div class="buttons inpage-scroll">
@@ -118,7 +118,10 @@
 			</div>
 		</div>
 	</div> <!-- / END BIG HEADING WITH CALL TO ACTION BUTTONS AND SHORT MESSAGES  -->
-	
+	<script>
+		var headerHeight = $(window).height();
+		$('.header').css('height', headerHeight);
+	</script>
 </header> <!-- / END HOME SECTION  -->
 
 <!-- =========================
