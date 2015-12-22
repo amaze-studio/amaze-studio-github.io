@@ -330,7 +330,7 @@ h6 {
 	content: "";
 	width: 75%;
 	height: 2px;
-	background: #82d4cf;
+	background: #01BB7C;
 	bottom: -9px;
 	left: 12.5%;
 }
@@ -352,7 +352,7 @@ h6 {
 	content: "";
 	width: 75%;
 	height: 2px;
-	background: #F3D254;
+	background: #FFD73F;
 	bottom: -9px;
 	left: 12.5%;
 }
@@ -604,16 +604,20 @@ input:focus {
 	border: 10px solid #83D3CB;
 }
 .green .service-icon {
-	border: 10px solid #82d4cf;
-	color: #82d4cf;
+	border: 10px solid #01BB7C;
+	color: #01BB7C;
 }
 .red .service-icon {
 	border: 10px solid #740000;
 	color: #740000;
 }
+.brand-blue .service-icon {
+	border: 10px solid #82d4cf;
+	color: #82d4cf;
+}
 .yellow .service-icon {
-	border: 10px solid #F3D254;
-	color: #F3D254;
+	border: 10px solid #FFD73F;
+	color: #FFD73F;
 }
 
 .focus-box h5 {
@@ -1577,12 +1581,7 @@ footer {
 #are-you-ready {
 	font-size: 25px;
 }
-.black-and-white-theme {
-	overflow: hidden;
-}
-.black-and-white-theme *{
-	cursor: none;
-}
+
 
 .black-and-white-theme header .btn{
 	display: none !important;	
