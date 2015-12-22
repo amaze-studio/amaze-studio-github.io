@@ -120,8 +120,16 @@
 
 @media (max-width: 767px) {
  
-	
-
+	  h1 {
+     	font-size: 37px;
+        /*font-weight: bold;*/
+    }
+	.intro span {
+    	max-width: 300px;
+		text-align: center;
+		margin: auto;
+    	font-size: 34px;
+    }
     html {
         font-size: 90%;
     }
@@ -212,7 +220,9 @@
 	.responsive-logo img {
         width: 70%;
     }
-    
+    .separator-one {
+    	padding: 70px 0;
+    }
     #main-nav {
         min-height: 50px;
     }
@@ -237,16 +247,8 @@
     .inpage-scroll .btn {
     	width: 200px;
     }
-    .intro span {
-    	max-width: 300px;
-		text-align: center;
-		margin: auto;
-    	font-size: 34px;
-    }
-     h1 {
-     	font-size: 37px;
-        /*font-weight: bold;*/
-    }
+    
+   
     
 	h2 {
 		font-size: 6.5vw !important;
