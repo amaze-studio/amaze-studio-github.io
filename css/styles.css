@@ -152,6 +152,7 @@ h6 {
  **   BUTTONS                        -----
 -----------------------------------------*/
 .vegas-background {
+	transition: -webkit-filter .7s;
 }
 .buttons {
 	text-align: center;
@@ -454,7 +455,7 @@ input:focus {
 -----------------------------------------*/
 
 .header {
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.2);
 	min-height: 775px;
 	position: relative;
 	overflow: hidden;
@@ -624,10 +625,7 @@ input:focus {
 }
 
 /*----OTHER FOCUSES ----*/
-.other-focuses {
-	background: url(../images/lines.png) repeat-x center;
-	margin-bottom: 25px;
-}
+
 .other-focuses .section-footer-title {
 	background: #FFF;
 	padding: 0 15px;
