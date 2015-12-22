@@ -22,9 +22,6 @@ body {
 	line-height: 25px;
 	text-align: center;
 }
-.black-and-white-theme {
-	overflow: hidden;
-}
 .black-and-white-theme .brand-blue-btn{
 	background-color: #141414;
 	color: white;
