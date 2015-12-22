@@ -14,8 +14,10 @@ $.vegas('slideshow', {
    $(document).ready(function() {
     var offset = $(window).scrollTop();
     if (offset == 0) {
-      $('body').addClass('black-and-white-theme')
       disableScroll()
+    }
+    else {
+      $('body').removeClass('black-and-white-theme')
     }
   var owl_main_block = $('#owl-main-block');
   owl_main_block.owlCarousel({
@@ -26,7 +28,7 @@ $.vegas('slideshow', {
     itemsDesktopSmall : [980,3],
     itemsTablet: [768,2],
     itemsTabletSmall: false,
-    itemsMobile : [479,1],
+    itemsMobile : [179,1],
 
   })
   $('.step-2').css('display', 'block');
