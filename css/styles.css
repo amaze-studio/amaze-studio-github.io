@@ -201,16 +201,25 @@ h6 {
 	color: #FFF;
 	background: #1288b9;
 }
-.red-btn:hover {
+.red-btn:hover,
+.red-btn:focus,
+.red-btn:active {
 	color: #FFF;
+	background-color: #cb4332 !important;
 	background: #cb4332;
 }
-.green-btn:hover {
+.green-btn:hover,
+.green-btn:focus,
+.green-btn:active {
 	color: #FFF;
-	background: #069059;
+	background-color: #069059 !important;
+	background: #069059; 
 }
-.yellow-btn:hover {
+.yellow-btn:hover,
+.yellow-btn:focus,
+.yellow-btn:active {
 	color: #FFF;
+	background-color: #d8951e !important;
 	background: #d8951e;
 }
 
@@ -365,7 +374,7 @@ h6 {
  **   FORM                           -----
 -----------------------------------------*/
 
-.input-box {
+.contact-us .input-box {
 	border: 0;
 	width: 274px;
 	text-align: left;
@@ -377,7 +386,7 @@ h6 {
 	border-radius: 4px;
 	background: rgba(255,255,255, 0.95);
 }
-.textarea-box {
+.contact-us  .textarea-box {
 	border: 0;
 	text-align: left;
 	text-transform: none;
@@ -388,12 +397,12 @@ h6 {
 	border-radius: 4px;
 	background: rgba(255,255,255, 0.95);
 }
- textarea:hover, 
-input:hover, 
-textarea:active, 
-input:active, 
-textarea:focus, 
-input:focus {
+.contact-us  textarea:hover, 
+.contact-us  input:hover, 
+.contact-us  textarea:active, 
+.contact-us input:active, 
+.contact-us textarea:focus, 
+.contact-us input:focus {
     outline: 1 !important;
     outline-color: #83D3CB !important;
     -webkit-appearance:none;
@@ -1612,6 +1621,23 @@ footer {
 }
 .logo-color {
 	display: block !important;
+}
+
+#contact-form-modal .input-box{
+	width: auto;
+	border: 1px solid #ccc;
+	padding: 0px;
+	text-indent: 5px;
+	transition all 0s;
+}
+#contact-form-modal textarea {
+	visibility: visible;
+	margin-top: 15px;
+	min-height: 200px;
+}
+#contact-modal-title {
+	font-size: 38px;
+	color: black;
 }
 @media (max-width: 480px){
 	.responsive-logo img{

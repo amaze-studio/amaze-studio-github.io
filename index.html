@@ -734,14 +734,13 @@
 					</div>
 				</div>
 				<ul>
-					<li>Наем визажиста:</li>
+					<li>Услуги визажиста:</li>
 					<li>50-150 грн/час</li>
 					<li>Съемка в студии:</li>
 					<li>100-300 грн/час</li>
 					<li>(В зависимости от студии)</li>
 				</ul>
-				<a href="#" class="btn btn-primary custom-button green-btn">
-				Уточнить </a>
+				<button class="btn btn-primary custom-button green-btn"  data-toggle="modal" data-target="#contact-form-modal"> Уточнить </button>
 			</div>
 		</div> <!-- / END FIRST PACKAGE -->
 		
@@ -757,14 +756,13 @@
 					</div>
 				</div>
 				<ul>
-					<li>Наем визажиста:</li>
+					<li>Услуги визажиста:</li>
 					<li>50-150 грн/час</li>
 					<li>Съемка в студии:</li>
 					<li>100-300 грн/час</li>
 					<li>(В зависимости от студии)</li>
 				</ul>
-				<a href="#" class="btn btn-primary custom-button blue-btn">
-				Уточнить </a>
+				<button class="btn btn-primary custom-button blue-btn"  data-toggle="modal" data-target="#contact-form-modal"> Уточнить </button>
 			</div>
 		</div>
 		
@@ -785,8 +783,7 @@
 						<li>Групповая фотосъемка</li>
 						<li>Дни рождения</li>
 					</ul>
-					<a href="#" class="btn btn-primary custom-button brand-blue-btn">
-				Уточнить </a>
+					<button class="btn btn-primary custom-button brand-blue-btn"  data-toggle="modal" data-target="#contact-form-modal"> Уточнить </button>
 				</div>
 			</div>
 		</div>
@@ -807,8 +804,7 @@
 					<li><i class="icon-cancel"></i>Безумные образы</li>
 					<li><i class="icon-cancel"></i>Ночная съемка</li>
 				</ul>
-				<a href="#" class="btn btn-primary custom-button yellow-btn">
-				Уточнить </a>
+				<button class="btn btn-primary custom-button yellow-btn"  data-toggle="modal" data-target="#contact-form-modal"> Уточнить </button>
 			</div>
 		</div>
 	</div> <!-- / END PACKAGES -->
@@ -1028,6 +1024,46 @@
 	</div>
 </div> <!-- / END CONTAINER -->
 </footer> <!-- / END FOOOTER  -->
+
+<!-- Modal -->
+<div class="modal fade" id="contact-form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="contact-modal-title">Отправить заявку</h4>
+      </div>
+      <div class="modal-body">
+        <form role="form" class="contact-form" id="contact-form" action="http://formspree.io/amaze.stud@gmail.com" method="POST" novalidate="novalidate">
+			<div class="row">
+			<div class="col-lg-4 col-sm-4">
+				<input type="text" name="name" placeholder="Как к Вам обращаться" class="form-control input-box" id="name">
+			</div>
+			<div class="col-lg-4 col-sm-4">
+				<input type="email" name="email" placeholder="Ваш моб. номер" class="form-control input-box" id="phone">
+			</div>
+			<div class="col-lg-4 col-sm-4">
+				<input type="text" name="master" placeholder="Имя мастера" class="form-control input-box" id="subject">
+			</div>
+			</div>
+			<textarea name="description" class="form-control textarea-box" placeholder="Удобное время. Тип фотосессии. Способ связи с вами. И все пожелания в целом!" id="message"></textarea>
+			<!-- IF MAIL SENT SUCCESSFULLY -->
+					<h4 class="success pull-left white-text">
+						Ваша заявка принята и обязательно будет рассмотрена.
+					</h4>
+					
+					<!-- IF MAIL SENDING UNSUCCESSFULL -->
+					<h4 class="error pull-left white-text">
+						Введите корректный e-mail.
+					</h4>
+			<button class="btn btn-primary custom-button dark-grey-btn" id="submit">Отправить!</button>
+		</form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- SCRIPTS -->
 <script src="js/bootstrap.min.js"></script>
