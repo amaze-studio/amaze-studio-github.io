@@ -101,7 +101,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1,h2 {
-	font-family: 'Montserrat', 'sans-serif';
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -279,7 +278,6 @@ h6 {
 .intro span {
 	font-size: 60px;
 	font-weight: bold;
-	font-family: 'Montserrat', 'sans-serif';
 	text-transform: uppercase;
 }
 .white-border-bottom:before {
@@ -1381,7 +1379,6 @@ width: -webkit-calc(100% / 2);
 .newsletter h3 {
 	font-size: 28px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	margin-bottom: 8px;
 }
