@@ -1079,7 +1079,7 @@ width: -webkit-calc(100% / 2);
 }
 .features .feature {
 	margin-bottom: 55px;
-	min-height: 130px;
+	min-height: 170px;
 }
 .features .feature-icon {
 	font-size: 55px;
@@ -1518,7 +1518,6 @@ footer {
 .company-details {
 	color: #939393;
 	padding-top: 67px;
-	padding-bottom: 67px;
 }
 .company-details .icon-top {
 	font-size: 30px;
