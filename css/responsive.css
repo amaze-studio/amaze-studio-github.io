@@ -224,7 +224,9 @@
 	html {
         font-size: 70%;
     }
-
+	.bottom-message-section {
+		display: none;
+	}
     .cbp-rfgrid li .project-wrapper img {
     	margin: auto;	
     }
