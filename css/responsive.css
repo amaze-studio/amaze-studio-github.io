@@ -224,9 +224,9 @@
 	html {
         font-size: 70%;
     }
-    
+
     .cbp-rfgrid li .project-wrapper img {
-    	max-width: auto;
+    	margin: auto;	
     }
 	.responsive-logo img {
         width: 70%;
