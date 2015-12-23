@@ -255,13 +255,17 @@
 	}
      
     .custom-button {
-        padding: 10px 18px;
+        padding: 10px 14px;
     }
     .inpage-scroll .btn {
     	width: 200px;
     }
-    
-   
+    .team-member {
+    	margin-bottom: 0;
+    }
+   #submit {
+	   	margin: 10px 18px;
+   }
     
 	h2 {
 		font-size: 6.5vw !important;
