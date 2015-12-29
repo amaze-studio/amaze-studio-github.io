@@ -28,7 +28,7 @@ body {
 }
 ::-webkit-scrollbar-track:hover{
     border-left: solid 1px #aaa;
-    background-color: #eee;
+    background-color: transparent;
 }
 @-webkit-viewport {
     width: device-width;
@@ -518,10 +518,43 @@ h6 {
     background-color: #2f2f2f;
     margin-top: 23px;
 }
+.navbar-inverse .navbar-toggle .icon-bar {
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+}
+.navbar-inverse .navbar-toggle[aria-expanded=true] {
+    background-color: #82d4cf;
+    height: 32px;
+    width: 42px;
+    position: relative;
+}
+.navbar-inverse .navbar-toggle[aria-expanded=true] .icon-bar.first {
+	transform: rotate(140deg);
+	-webkit-transform: rotate(140deg);
+	-moz-transform: rotate(140deg);
+	-o-transform: rotate(140deg);
+	-ms-transform: rotate(140deg);
+	position: absolute;
+	top: 16px;
+}
+
+.navbar-inverse .navbar-toggle[aria-expanded=true] .icon-bar.second {
+	opacity: 0;
+}
+.navbar-inverse .navbar-toggle[aria-expanded=true] .icon-bar.third {
+	transform: rotate(-140deg);
+	-webkit-transform: rotate(-140deg);
+	-moz-transform: rotate(-140deg);
+	-o-transform: rotate(-140deg);
+	-ms-transform: rotate(-140deg);
+	position: absolute;
+	top: 12px; 
+}
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #82d4cf;
-    filter: alpha(opacity=100);
     opacity: 1;
 }
 .intro {
