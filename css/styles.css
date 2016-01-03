@@ -1551,3 +1551,9 @@ footer {
     align-items: center;
     justify-content: space-around;
 }
+
+@media (max-width: 990px) {
+    .soc-network{
+        display: none;
+    }
+}
