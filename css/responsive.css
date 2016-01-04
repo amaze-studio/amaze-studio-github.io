@@ -33,29 +33,13 @@ footer{padding-top:40px;}
 @media (max-width:767px){h1{font-size:32px;font-weight:bold;}
 .intro span{max-width:300px;text-align:center;margin:auto;font-size:32px;}
 html{font-size:90%;}
-#contact-modal-title {
-    	font-size: 26px;
-    }
-#contact-form-modal .input-box {
-	width: 100%;
-	margin-bottom: 10px;
-}
-.modal-header .close {
-	margin-top: -8px;
-	margin-right: -5px;
-}
-.modal #submit {
-	margin: 0;
-}
-#contact-form-modal .custom-button {
-	min-height: 170px;
-}
-.navbar-toggle {
-	margin-right: 0;
-}
-.nav-wrapper {
-	padding: 0;
-}
+#contact-modal-title{font-size:26px;}
+#contact-form-modal .input-box{width:100%;margin-bottom:10px;}
+.modal-header .close{margin-top:-8px;margin-right:-5px;}
+.modal #submit{margin:0;}
+#contact-form-modal .custom-button{min-height:170px;}
+.navbar-toggle{margin-right:0;}
+.nav-wrapper{padding:0;}
 .features .feature{min-height:0;}
 .bs-navbar-collapse{border:0;}
 .features .feature p{text-align:justify;}
