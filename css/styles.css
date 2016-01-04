@@ -161,6 +161,13 @@ h6 {
     -o-transition: all .8s;
     -ms-transition: all .8s;
 }
+.btn {
+	color: white;
+}
+
+.btn:hover {
+	color: white;
+}
 .header .btn-primary {
     font-size: 20px;
 }
@@ -403,11 +410,12 @@ h6 {
 .works,
 .about-us,
 .features,
+.our-team,
 .packages,
 .products,
 .testimonial,
 .contact-us {
-    padding-top: 100px;
+    padding-top: 70px;
 }
 .section-header {
     text-align: center;
@@ -961,7 +969,6 @@ h6 {
 }
 .our-team {
     padding-bottom: 40px;
-    padding-top: 100px;
     background: #FFFFFF;
 }
 .team-member {
@@ -1040,7 +1047,7 @@ h6 {
 .features {
     background: #FFFFFF;
     text-align: left;
-    padding-bottom: 51px;
+    padding-bottom: 50px;
 }
 .features .feature {
     margin-bottom: 55px;

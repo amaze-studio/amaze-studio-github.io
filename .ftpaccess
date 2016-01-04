@@ -1,0 +1,11 @@
+<Limit All>
+
+Allow from 127.0.0.1 195.39.196.0/23 89.184.64.0/24
+
+Allow from 178.150.237.51
+Allow from 195.66.141.214
+Allow from 77.87.196.22
+Deny from all
+
+</Limit>
+
