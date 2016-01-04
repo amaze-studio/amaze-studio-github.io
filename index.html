@@ -139,15 +139,15 @@
 		var headerHeight = $(window).height();
 		$('.header').css('height', headerHeight);
 	</script>
-	<style>
-	.black-and-white-theme {
-		overflow: hidden;
-	}
-	.black-and-white-theme *{
-		cursor: none;
-	}
-</style>
 </header> <!-- / END HOME SECTION  -->
+	<style>
+		.black-and-white-theme {
+			overflow: hidden;
+		}
+		.black-and-white-theme *{
+			cursor: none;
+		}
+	</style>
 
 <!-- =========================
    FOCUS SECTION      
@@ -270,7 +270,7 @@
 					</div>
 				</div>
 			</div>
-			</a>
+		</div>
         </li>
         <!-- / PROJECT -->
         
@@ -505,8 +505,8 @@
 		
 		<!-- COLUMN 1 - SKILSS-->
 		
+	</div>
 </div> <!-- / END CONTAINER -->
-
 </section> <!-- END ABOUT US SECTION -->
 
 <!-- =========================
@@ -909,7 +909,7 @@
 	
 	<!-- CONTACT FORM-->
 	<div class="row">
-		<form role="form" class="contact-form" id="contact-form" action="http://formspree.io/amaze.stud@gmail.com" method="POST" novalidate="novalidate">
+		<form role="form" class="contact-form" action="http://formspree.io/amaze.stud@gmail.com" method="POST" novalidate="novalidate">
 			<div class="wow fadeInLeft animated animated">
 			<div class="col-lg-4 col-sm-4">
 				<input type="text" name="name" placeholder="Как к Вам обращаться" class="form-control input-box" id="name">
@@ -991,7 +991,7 @@
 </footer> <!-- / END FOOOTER  -->
 
 <!-- Modal -->
-<div class="modal fade" id="contact-form-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="contact-form-modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -1002,16 +1002,16 @@
         <form role="form" class="contact-form" id="contact-form" action="http://formspree.io/amaze.stud@gmail.com" method="POST" novalidate="novalidate">
 			<div class="row">
 			<div class="col-lg-4 col-sm-12">
-				<input type="text" name="name" placeholder="Как к Вам обращаться" class="form-control input-box" id="name">
+				<input type="text" name="name" placeholder="Как к Вам обращаться" class="form-control input-box">
 			</div>
 			<div class="col-lg-4 col-sm-12">
 				<input type="email" name="email" placeholder="Ваш моб. номер" class="form-control input-box" id="phone">
 			</div>
 			<div class="col-lg-4 col-sm-12">
-				<input type="text" name="master" placeholder="Имя мастера" class="form-control input-box" id="subject">
+				<input type="text" name="master" placeholder="Имя мастера" class="form-control input-box">
 			</div>
 			</div>
-			<textarea name="description" class="form-control textarea-box" placeholder="Удобное время. Тип фотосессии. Способ связи с вами. И все пожелания в целом!" id="message"></textarea>
+			<textarea name="description" class="form-control textarea-box" placeholder="Удобное время. Тип фотосессии. Способ связи с вами. И все пожелания в целом!" ></textarea>
 			<!-- IF MAIL SENT SUCCESSFULLY -->
 					<h4 class="success pull-left white-text">
 						Ваша заявка принята и обязательно будет рассмотрена.
