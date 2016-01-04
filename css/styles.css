@@ -801,6 +801,7 @@ h6 {
         width: -webkit-calc(100%/2);
         width: calc(100%/2);
     }
+
 }
 @media screen and (max-width: 480px) {
     .cbp-rfgrid li {
@@ -1543,6 +1544,13 @@ footer {
 #contact-modal-title {
     font-size: 38px;
     color: black;
+}
+.modal-footer {
+	text-align: center;
+	font-size: 30px;
+}
+.modal-footer i {
+	color: black;
 }
 @media (max-width: 480px) {
     .responsive-logo img {
