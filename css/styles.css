@@ -78,12 +78,11 @@ a {
     color: #83D3CB;
     -webkit-transition: all 700ms;
     transition: all 700ms;
+    text-decoration: none;
 }
-a,
 a:hover,
 a:focus,
 a:active {
-    text-decoration: none;
     color: #5F9F9B;
 }
 p {
