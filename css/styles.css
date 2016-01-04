@@ -493,8 +493,7 @@ h6 {
     height: 76px;
     position: relative;
     line-height: 45px;
-    padding-top: 23px;
-    padding: 25px 0;
+    padding: 0;
 }
 .navbar-inverse .navbar-nav>li.current a {
     color: #82d4cf;
