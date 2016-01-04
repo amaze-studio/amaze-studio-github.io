@@ -1550,3 +1550,17 @@ footer {
         width: auto !important;
     }
 }
+
+.soc-network{
+    height: 76px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 990px) {
+    .soc-network{
+        display: none;
+    }
+}
