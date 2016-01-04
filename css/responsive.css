@@ -47,7 +47,7 @@ html{font-size:90%;}
 .modal #submit {
 	margin: 0;
 }
-#contact-form-modal textarea {
+#contact-form-modal .custom-button {
 	min-height: 170px;
 }
 .features .feature{min-height:0;}
