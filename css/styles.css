@@ -80,11 +80,11 @@ a {
     transition: all 700ms;
 }
 a,
-a:hover {
+a:hover,
+a:focus,
+a:active {
     text-decoration: none;
-}
-a:hover {
-    color: #cb4332;
+    color: #5F9F9B;
 }
 p {
     margin: 0;
